@@ -1,0 +1,170 @@
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Fira Code', monospace;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a, .purple {
+  color: #7201ff;
+}
+
+nav {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 0;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+nav a {
+  margin: 0 0.75rem;
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: url("images/background.jpg") center / cover no-repeat;
+}
+
+.centerpiece {
+  position: relative;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.centerpiece h1 {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 0;
+}
+
+.centerpiece h2 {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 6rem;
+  font-weight: normal;
+}
+
+.chart {
+  position: absolute;
+  bottom: 5rem;
+  left: -2rem;
+  width: 29.8rem;
+  height: 16rem;
+  border-width: 0 0 2px 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.bar {
+  position: absolute;
+  bottom: 0;
+  width: 1.8rem;
+  background: #fff8;
+}
+
+#experience {
+  position: relative;
+  top: -3rem;
+}
+
+#timeline {
+  position: relative;
+  padding-top: 1rem;
+}
+
+.line {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  right: 50%;
+  height: 100%;
+  border-width: 0 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.cv-item {
+  padding: 1rem;
+  max-width: 45%;
+}
+
+.cv-item.left {
+  margin: 0 50% 0 auto;
+  text-align: right;
+}
+
+.cv-item.right {
+  margin-left: 50%;
+}
+
+.cv-item img {
+  max-width: 100%;
+}
+
+.cv-item h2 {
+  margin: 0.5rem 0 0.5rem;
+}
+
+.cv-item p {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+#skills {
+  max-width: 90%;
+  margin: auto;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+#skills h2 {
+  margin-bottom: 0.5rem;
+}
