@@ -98,7 +98,7 @@ nav a:hover {
   left: -2rem;
   width: 29.8rem;
   height: 16rem;
-  border-width: 0 0 2px 2px;
+  border-width: 0 0 0.125rem 0.125rem;
   border-style: solid;
   border-color: black;
 }
@@ -108,6 +108,12 @@ nav a:hover {
   bottom: 0;
   width: 1.8rem;
   background: #fff8;
+}
+
+.arrow {
+  position: absolute;
+  border-style: solid;
+  border-color: transparent;
 }
 
 #experience {
